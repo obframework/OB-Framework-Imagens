@@ -35,8 +35,8 @@ As configuracoes publicas da framework usam caminhos relativos como
 
 ## Repositorios da framework
 
-- [OB-Framework](../OB-Framework): GTA V Enhanced.
-- [OB-Framework-Legacy](../OB-Framework-Legacy): GTA V Legacy.
+- [OB-Framework](https://github.com/obframework/OB-Framework): GTA V Enhanced.
+- [OB-Framework-Legacy](https://github.com/obframework/OB-Framework-Legacy): GTA V Legacy.
 
 ## Creditos
 
