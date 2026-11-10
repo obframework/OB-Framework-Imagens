@@ -20,18 +20,22 @@ Ele foi separado dos repositorios de codigo porque possui aproximadamente
 1. Instale o Git LFS: `git lfs install`.
 2. Clone este repositorio.
 3. Publique o conteudo em um servidor HTTP/HTTPS.
-4. O diretorio publicado precisa responder sob o caminho `/`.
+4. Mantenha a estrutura das subpastas e configure a framework com a URL base
+   escolhida.
 
 Exemplo de estrutura publica:
 
 ```text
-https://SEU_DOMINIO/icons/
-https://SEU_DOMINIO/cars/
-https://SEU_DOMINIO/creator/
+https://SEU_DOMINIO/QUALQUER_PASTA/icons/
+https://SEU_DOMINIO/QUALQUER_PASTA/cars/
+https://SEU_DOMINIO/QUALQUER_PASTA/creator/
 ```
 
-As configuracoes publicas da framework usam caminhos relativos como
-`/orbis/cars/`. Ajuste o dominio ou proxy conforme sua hospedagem.
+A pasta base pode ter qualquer nome ou ser a raiz do dominio. O importante e
+preservar `barbershop/`, `cars/`, `creator/`, `icons/`, `skinshop/` e
+`tattoos/` dentro dela. Depois, ajuste `ImageBaseUrl` ou `BaseUrl` nos recursos
+da framework para apontar para os caminhos escolhidos, por exemplo
+`https://SEU_DOMINIO/QUALQUER_PASTA/cars/`.
 
 ## Repositorios da framework
 
