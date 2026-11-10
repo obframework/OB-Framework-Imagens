@@ -20,14 +20,14 @@ Ele foi separado dos repositorios de codigo porque possui aproximadamente
 1. Instale o Git LFS: `git lfs install`.
 2. Clone este repositorio.
 3. Publique o conteudo em um servidor HTTP/HTTPS.
-4. O diretorio publicado precisa responder sob o caminho `/orbis/`.
+4. O diretorio publicado precisa responder sob o caminho `/`.
 
 Exemplo de estrutura publica:
 
 ```text
-https://SEU_DOMINIO/orbis/icons/
-https://SEU_DOMINIO/orbis/cars/
-https://SEU_DOMINIO/orbis/creator/
+https://SEU_DOMINIO/icons/
+https://SEU_DOMINIO/cars/
+https://SEU_DOMINIO/creator/
 ```
 
 As configuracoes publicas da framework usam caminhos relativos como
